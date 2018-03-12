@@ -13,4 +13,8 @@ public class MathTest{
 	public void testLCM(){
 		assertEquals(15,Math.lcm(3,5));
 	}
+	@Test
+	public void testDummy(){
+		assertEquals("a","a");
+	}
 }
