@@ -17,4 +17,9 @@ public class MathTest{
 	public void testDummy(){
 		assertEquals("a","a");
 	}
+	
+	@Test
+	public void testx(){
+		assertEquals('b','b');
+	}
 }
