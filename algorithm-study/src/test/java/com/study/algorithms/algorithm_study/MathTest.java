@@ -20,6 +20,6 @@ public class MathTest{
 	
 	@Test
 	public void testx(){
-		assertEquals('b','b'); 
+		assertEquals('b','b');
 	}
 }
