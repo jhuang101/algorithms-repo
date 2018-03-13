@@ -7,7 +7,8 @@ import org.junit.Test;
 public class MathTest{
 	@Test
 	public void testGCD(){
-		assertEquals(1,Math.gcd(1, 3));
+		Math math = new Math();
+		assertEquals(1,math.gcd(1, 3));
 	}
 	@Test
 	public void testLCM(){
