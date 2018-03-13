@@ -12,7 +12,8 @@ public class MathTest{
 	}
 	@Test
 	public void testLCM(){
-		assertEquals(15,Math.lcm(3,5));
+		Math math = new Math();
+		assertEquals(15,math.lcm(3,5));
 	}
 	@Test
 	public void testDummy(){

@@ -8,7 +8,7 @@ public class Math {
      * @param m
      * @return
      */
-    public static long gcd(long n, long m){return m>0? gcd(m,n%m) : n;}
+    public long gcd(long n, long m){return m>0? gcd(m,n%m) : n;}
     
     /**
      * Least Common Multiple
@@ -17,6 +17,6 @@ public class Math {
      * @param m
      * @return
      */
-    public static long lcm(long n, long m){return n / gcd(n,m) * m;}
+    public long lcm(long n, long m){return n / gcd(n,m) * m;}
     
 }
